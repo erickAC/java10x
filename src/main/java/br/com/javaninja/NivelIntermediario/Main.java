@@ -5,13 +5,14 @@ public class Main {
   public static void main(String[] args) {
 
     // Criar ninja naruto
-    Ninja naruto = new Ninja();
+    Uzumaki naruto = new Uzumaki();
     naruto.nome = "Naruto Uzumaki";
     naruto.aldeia = "Aldeira da folha";
     naruto.idade = 17;
+    naruto.modoSabio();
 
     // Criar ninja sasuke uchiha - sasuke é um objeto
-    Ninja sasuke = new Ninja();
+    Uchiha sasuke = new Uchiha();
     sasuke.nome = "Sasuke Uchiha";
     sasuke.aldeia = "Aldeia da folha";
     sasuke.idade = 18;
@@ -24,10 +25,17 @@ public class Main {
     System.out.println("Voce tem: " + sasuke.idade + " entao falta no minimo: " + quantoTempoFalta);
 
     // Cria sakura
-    Ninja sakura = new Ninja();
+    Haruno sakura = new Haruno();
     sakura.nome = "Sakura";
     sakura.aldeia = "Aldeia da folha";
     sakura.idade = 17;
+    sakura.ativarCura();
+
+    Hyuga hinata = new Hyuga();
+    hinata.nome = "Hinata";
+    hinata.aldeia = "Aldeia da folha";
+    hinata.idade = 17;
+    hinata.ativarByakugan();
 
   }
 

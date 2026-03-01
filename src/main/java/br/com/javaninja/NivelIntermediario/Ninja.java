@@ -5,15 +5,6 @@ public class Ninja {
   String aldeia;
   int idade;
 
-  // create a custom method
-
-  /**
-   * dont return in void method
-   */
-  public void sharinganAtivado() {
-    System.out.println("Sharingan ativado!");
-  }
-
   /***
    * @return return a string
    */
